@@ -10,13 +10,10 @@
   <script type="text/javascript" src="js/jquery-func.js"></script>
   <script defer src="js/filmDetails.js"></script>
   <script defer src="js/search.js"></script>
-  <!--[if IE 6
-      ]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all"
-    /><![endif]-->
 </head>
 
 <body>
-<?php include('components/modale.php') ?>
+  <?php include('components/modale.php') ?>
   <!-- START PAGE SOURCE -->
   <div id="shell">
     <?php include('components/header.php') ?>
