@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background: url('/css/images/body-bg.gif');
+color: #f2a223;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.reserve {
+    background-color: #f2a223;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile{
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.danger{
+    color: red;
+}

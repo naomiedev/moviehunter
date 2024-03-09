@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/css/images/body-bg.gif');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #e7b038;
+    ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.reserve {
+    background-color: #f2a223;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.close {
+    background-color: red;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.alert {
+    width: 100%;
+    height: 94%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.alert p {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
